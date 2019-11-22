@@ -11,3 +11,8 @@ canvas.width = width;
 canvas.height = height;
 
 // hier kun je op de canvas tekenen
+context.beginPath();
+context.moveTo(20,20);
+context.lineTo(300, 300);
+context.closePath();
+context.stroke();
