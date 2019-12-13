@@ -47,7 +47,7 @@ circles.push(circleObject);
 function loop(){
   context.clearRect(0,0,width,height);
   // circleObject.update();
-  for(let i = 0; i < circles.lenght; i++){
+  for(let i = 0; i < circles.length; i++){
     circles[i].update();
     circles[i].draw();
   }
