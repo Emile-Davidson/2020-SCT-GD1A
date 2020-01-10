@@ -31,5 +31,5 @@ function myFunction() {
     context.fill();
 
 myFunction();
-}, 1000);
+}, 1);
 }
